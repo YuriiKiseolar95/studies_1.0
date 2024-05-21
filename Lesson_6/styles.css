@@ -4,12 +4,14 @@
 
 body {
     margin: 0px;
+    font-family: Roboto;
 }
 
 .link {
     text-decoration: none;
     color: black;
     font-size: 16px;
+    font-weight: 400;
     margin-right: 50px;
     display: inline-block;
 }
@@ -36,6 +38,7 @@ body {
 .navigation {
     display: inline-block;
     vertical-align: top;
+    padding-left: 229px;
 }
 
 .logo {
@@ -49,9 +52,82 @@ body {
 
 .content {
     background-color: #F5F5F580;
-    padding-top: 68px;
     padding-left: 43px;
-    padding-bottom: 85px;
+    padding-bottom: 45px;
 }
 
-.margin 
+.content_margin_h1 {
+    margin-top: 0;
+    margin-bottom: 7px;
+    line-height: 16px;
+    font-size: 14px;
+} 
+
+.content_h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 70px;
+    line-height: 70px;
+    color: black;
+}
+
+.color_for_Planet {
+    color: green;
+}
+
+.style_a {
+    display: inline-block;
+    background-color: green;
+    border-radius: 6px;
+    width: 140px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.style_a_text {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    line-height: 15px;
+    margin-left: 26px;
+    margin-top: 11px;
+    margin-right: 27px;
+    margin-bottom: 9px;
+}
+
+.style_p {
+    margin-top: 0;
+    margin-bottom: 44px;
+    font-size: 14px;
+    line-height: 24px;
+    width: 557px;
+    height: 45px;
+}
+
+.content_inner {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 68px;
+    width: 557px;
+}
+
+.style_button {
+    display: inline-block;
+    margin-left: 358px;
+    vertical-align: top;
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.style_button_text{
+    font-size: 16px;
+    vertical-align: top;
+}
+
+.style_button img {
+    display: inline-block;
+}
