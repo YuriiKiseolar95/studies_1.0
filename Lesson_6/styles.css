@@ -38,7 +38,7 @@ body {
 .navigation {
     display: inline-block;
     vertical-align: top;
-    padding-left: 229px;
+    margin-left: 229px;
 }
 
 .logo {
@@ -75,24 +75,22 @@ body {
     color: green;
 }
 
-.style_a {
+.style_button_shop {
     display: inline-block;
     background-color: green;
     border-radius: 6px;
     width: 140px;
     height: 40px;
     text-decoration: none;
-}
-
-.style_a_text {
-    display: inline-block;
     color: white;
     font-size: 16px;
-    line-height: 15px;
-    margin-left: 26px;
-    margin-top: 11px;
-    margin-right: 27px;
-    margin-bottom: 9px;
+   
+}
+
+.style_button_shop_text {
+     line-height: 15px;
+    border-left: 26px;
+    border-top: 11px;
 }
 
 .style_p {
@@ -111,7 +109,7 @@ body {
     width: 557px;
 }
 
-.style_button {
+.style_button_login {
     display: inline-block;
     margin-left: 358px;
     vertical-align: top;
@@ -120,10 +118,11 @@ body {
     width: 100px;
     height: 35px;
     border-radius: 6px;
+    border: none;
     font-size: 16px;
 }
 
-.style_button_text{
+.style_button_login_text{
     font-size: 16px;
     vertical-align: top;
 }
